@@ -7,8 +7,8 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  public version = VERSION.full;
-  public reactiveForm: FormGroup = new FormGroup({
+ // public version = VERSION.full;
+/*   public reactiveForm: FormGroup = new FormGroup({
       recaptchaReactive: new FormControl(null, Validators.required)
-  });
+  }); */
 }
